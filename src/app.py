@@ -41,46 +41,6 @@ activities = {
     }
 }
 
-# Additional activities
-activities.update({
-    "Soccer Team": {
-        "description": "Competitive soccer team practicing for inter-school matches",
-        "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
-        "max_participants": 22,
-        "participants": ["alex@mergington.edu", "maria@mergington.edu"]
-    },
-    "Basketball Club": {
-        "description": "Pick-up games and skill development in basketball",
-        "schedule": "Wednesdays and Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 15,
-        "participants": ["tyler@mergington.edu"]
-    },
-    "Art Club": {
-        "description": "Explore drawing, painting, and mixed media projects",
-        "schedule": "Mondays, 3:30 PM - 5:00 PM",
-        "max_participants": 25,
-        "participants": ["isabella@mergington.edu", "chloe@mergington.edu"]
-    },
-    "Drama Club": {
-        "description": "Theater workshops and staging school productions",
-        "schedule": "Thursdays, 3:30 PM - 6:00 PM",
-        "max_participants": 30,
-        "participants": ["ethan@mergington.edu"]
-    },
-    "Debate Team": {
-        "description": "Practice public speaking and compete in debate tournaments",
-        "schedule": "Wednesdays, 4:00 PM - 6:00 PM",
-        "max_participants": 20,
-        "participants": ["grace@mergington.edu", "noah@mergington.edu"]
-    },
-    "Science Club": {
-        "description": "Hands-on experiments and science fair projects",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 20,
-        "participants": ["liam@mergington.edu"]
-    }
-})
-
 
 @app.get("/")
 def root():
